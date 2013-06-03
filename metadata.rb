@@ -1,3 +1,4 @@
+name              "re2"
 maintainer       "Jordi Llonch"
 maintainer_email "llonchj@gmail.com"
 license          "All rights reserved"
