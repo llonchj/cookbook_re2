@@ -7,8 +7,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
-
-include_recipe "mercurial"
+%w(mercurial build-essential).each do |rec|
+  include_recipe rec
+end
 
 mercurial "/tmp/re2" do
   repository node[:re2][:repository]
