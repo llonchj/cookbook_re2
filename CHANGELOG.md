@@ -2,6 +2,11 @@
 
 This file is used to list changes made in each version of re2.
 
+## 0.1.1:
+
+* Berhskelf support
+* Added build-essential to re2::default
+
 ## 0.1.0:
 
 * Initial release of re2
