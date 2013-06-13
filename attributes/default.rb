@@ -1,7 +1,7 @@
 
 #default['re2']['version'] = "1.7.0"
 
-case node['platform']
+case node[:platform]
   when "fedora"
     default[:re2][:install_method] = "package"
     default[:re2][:packages] = %w(re2 re2-devel)
